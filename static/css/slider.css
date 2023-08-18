@@ -1,0 +1,125 @@
+
+.main-slide-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.slide-page{
+display: grid;
+justify-items: auto;
+align-items: center;
+width: 90%;
+height: auto;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 10px;
+    border: 5px solid ghostwhite;
+    box-shadow: 0px 0px 3px ghostwhite;
+}
+
+.slide-container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+
+.my-siksha-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -2px;
+}
+.slide-container-main {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0px 0px 3px grey;
+    overflow: hidden;
+}
+
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.slide1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.nav button{
+    height: 4rem;
+    width: 4rem;
+    background-color: white;
+    border: none;
+}
+.nav button img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.slider-heading{
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.slide p{
+    font-family: 'poppins', sans-serif;
+}
+
+
+.event-date{
+background-color: yellow;
+width: 4rem;
+}
+
+.siksha-read{
+    align-self:end;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -1.5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(52, 214, 223);
+}
+
+
+
+
+
+
+
+
+
+
+
+.stories-heading {
+    text-align: left;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: var(--second-color);
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.gap a img{
+width: 16vw;
+height: 25vh;
+}
